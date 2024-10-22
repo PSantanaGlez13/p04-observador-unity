@@ -178,6 +178,8 @@ public class moveTowards : MonoBehaviour
 
 Similar al ejercicio anterior, pero en este caso se utilizan un script de rotancion y otro de teletransporte en vez de movimiento en una dirección.
 
+El eje Z de las arañas está invertido (debido al modelo) por lo se queda mirando en dirección contraria. Una solución implicaría girar la araña con otro método diferente teniendo en cuenta este detalle.
+
 ![Ejercicio 4](media/Ejercicio4.gif)
 
 ```c#
